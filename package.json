@@ -1,10 +1,10 @@
 {
   "name": "couponpapa",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "couponpapa client",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/mark-papa/couponpapa/issues"
   },
-  "homepage": "https://github.com/mark-papa/couponpapa#readme"
+  "homepage": "https://github.com/mark-papa/couponpapa#readme",
+  "dependencies": {
+    "mocha": "^4.0.1",
+    "request": "^2.83.0",
+    "when": "^3.7.8"
+  }
 }
