@@ -1,8 +1,8 @@
 var assert = require('assert');
-var Client = require('../src/api')
+var cpClient = require('..')
 
 describe('API', function() {
-  const client = new Client('YOUR-API-KEY');
+  const client = new cpClient('YOUR-API-KEY');
   const CODE = 'TESTCODE';
   const trackingId = 'test@couponpapa.io';
 
