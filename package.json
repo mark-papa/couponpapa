@@ -1,0 +1,23 @@
+{
+  "name": "couponpapa",
+  "version": "0.0.1",
+  "description": "couponpapa client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-papa/couponpapa.git"
+  },
+  "keywords": [
+    "couponpapa",
+    "coupon"
+  ],
+  "author": "couponpapa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mark-papa/couponpapa/issues"
+  },
+  "homepage": "https://github.com/mark-papa/couponpapa#readme"
+}
