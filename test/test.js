@@ -2,7 +2,7 @@ var assert = require('assert');
 var cpClient = require('..')
 
 describe('API', function() {
-  const client = new cpClient('YOUR-API-KEY', 'http://localhost:7701');
+  const client = new cpClient('YOUR-KEY', 'http://localhost:7701');
   const CODE = 'TESTCODE';
   const trackingId = 'test@couponpapa.io';
 
