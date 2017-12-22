@@ -1,5 +1,5 @@
 var assert = require('assert');
-var cpClient = require('..')
+var cpClient = require('..');
 
 describe('API', function() {
   const client = new cpClient('YOUR-KEY', 'http://localhost:7701');
