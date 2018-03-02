@@ -48,6 +48,13 @@ describe('API', function() {
     });
   });
 
+  describe('couponsList', function() {
+    it('trackingId: ' + trackingId, async () => {
+      const result = await cpp.couponsList(trackingId);
+      assert.equal(result.coupons.length, 0);
+    });
+  });
+
   describe('list', function() {
     it('trackingId: ' + trackingId, async () => {
       const result = await cpp.couponboxesList(trackingId, 100);
